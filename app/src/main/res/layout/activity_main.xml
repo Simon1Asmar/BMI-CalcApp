@@ -9,13 +9,13 @@
 
     <TextView
         android:id="@+id/textView"
-        android:text="BMI Calculator"
+        style="@style/mainSyleBMI"
+        android:text="@string/titleText"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        style="@style/mainSyleBMI" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/edtHeight"
@@ -45,7 +45,7 @@
         android:id="@+id/textView3"
         style="@style/style01testBMI"
         android:layout_marginTop="128dp"
-        android:text="Weight(kg)"
+        android:text="@string/txtWeight"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.037"
         app:layout_constraintStart_toStartOf="parent"
@@ -56,7 +56,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="56dp"
-        android:text="Height(m)"
+        android:text="@string/txtHeight"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -72,7 +72,7 @@
         android:layout_marginTop="36dp"
         android:background="#1E35B6"
         android:onClick="btn_onClick"
-        android:text="Calculate BMI"
+        android:text="@string/btnCalc"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
